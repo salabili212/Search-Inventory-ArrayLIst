@@ -24,7 +24,7 @@ public class Vehicle {
 
     //Display the products
     public void getInventory(){
-        System.out.printf("ID:%d, Model:%s, Price:%f.2\n", this.vehicleId, this.makeModel, this.price);
+        System.out.printf("ID:%d, Model:%s, Price:$%.2f%n\n", this.vehicleId, this.makeModel, this.price);
     }
 
 
